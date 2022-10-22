@@ -1,0 +1,26 @@
+{
+  "name": "mini-code",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "part1-whatIsLoader": "cd ./webpack/part1-whatIsLoader && webpack --config webpack.config.js",
+    "part2-loadResource": "cd ./webpack/part2-loadResource && webpack --config webpack.config.js",
+    "part3-babel": "cd ./webpack/part3-babel && webpack --config webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "babel-plugin-annotate-console-log": "^1.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
